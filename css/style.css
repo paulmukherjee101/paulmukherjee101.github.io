@@ -1,0 +1,187 @@
+
+body {
+    margin: 0;
+}
+
+/* Nav Styles */
+nav {
+    background-color: #34495e;
+    display: flex;
+    justify-content: flex-end;
+    border-style: solid;
+    border-top: #22313f;
+}
+
+nav a {
+    text-decoration:none;
+    color: #ffffff;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+nav a:hover {
+    
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #34495e;
+    
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Page Section Styles */
+.nameplate, .aboutme {
+    background-color: #e4f1fe;
+    padding: 20px;
+    
+}
+
+/* Link Styles */
+a {
+    color: #22313f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0074b3;
+}
+
+/* Font Styles */
+
+h1, h2, h3 {
+    font-family: 'Trirong', sans-serif; 
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+
+
+.aboutme {
+    font-family: 'Montserrat', sans-serif; 
+    color: #333;
+    font-size: 16px;
+    text-align:center;
+}
+
+/* Border Styles */
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    margin: 30px -20px 20px;
+}
+
+/* Image Styles */
+.aboutme img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    border: none;  
+    position: relative; 
+    border-radius: 50%; 
+}
+.name {
+    position:absolute;
+    top: 200px;
+    left: 725px;
+    font-size: 2.0rem;
+    
+
+}
+
+.nameplate {
+    padding: 0%;
+    
+   
+}
+
+/* Card Layout Styles */
+.card1, .card2, .card3 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:rgb(245, 241, 235);
+    margin: 0px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card1 img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    border: none;  
+    position: relative; 
+    border-radius: 5px; 
+}
+.card2 img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    border: none;  
+    position: relative;
+    border-radius: 5px; 
+}
+.card3 img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    border: none;  
+    position: relative; 
+    border-radius: 5px; 
+}
+/* Grid Layout */
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+/* List Styles */
+ul, dl {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#firstname {
+    color: black;
+    
+}
+
+#tag {
+    color: black;
+    
+}
+
+#contact {
+    text-align: center;
+    font-family:'Trirong', sans-serif;
+}
+
+#contact2 {
+    margin:auto;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color:rgb(245, 241, 235);
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
